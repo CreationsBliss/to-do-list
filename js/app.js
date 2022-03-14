@@ -36,6 +36,8 @@ document.getElementById('add-btn').addEventListener('click', function(){
 });
 
 document.getElementById('clear-all-btn').addEventListener("click", function(){
-  
+  const tableBody = document.getElementById("table-body");
+  tableBody.style.display = "none";
+  location.reload();
 })
 
