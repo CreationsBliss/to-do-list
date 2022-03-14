@@ -24,7 +24,7 @@ document.getElementById('add-btn').addEventListener('click', function(){
      event.target.parentNode.parentNode.style.display = "none";
    })
   };
-  
+
   // done item
   const doneBtns = document.getElementsByClassName("done-btn");
   for(button of doneBtns){
@@ -34,4 +34,8 @@ document.getElementById('add-btn').addEventListener('click', function(){
   };
 
 });
+
+document.getElementById('clear-all-btn').addEventListener("click", function(){
+  
+})
 
